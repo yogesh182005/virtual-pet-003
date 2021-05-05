@@ -134,11 +134,11 @@ function draw() {
 // }
 
 //function to read food Stock
-// function readStock(data){
-//   readState=database.ref("gameState")
-//   readState.on("value",function(data){
-//     gameState=data.val();
-//   })
+function readStock(data){
+   readState=database.ref("gameState")
+   readState.on("value",function(data){
+     gameState=data.val();
+   })
 //    foodS=data.val();
 //    foodObj.updateFoodStock(foodS);
 // }
